@@ -57,7 +57,7 @@ If you prefer not to use an IDE, you can build and run the application using the
 ```bash
 mvn clean install
 ```
-4.Once the build is successful, run the following command to start the application:
+4. Once the build is successful, run the following command to start the application:
 ```bash
 mvn spring-boot:run
 ```
