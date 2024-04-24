@@ -8,8 +8,6 @@ Follow these steps to set up and run the application:
 
 ### Prerequisites
 
-### Prerequisites
-
 Before you begin, ensure that you have the following installed on your system:
 
 - **Java Development Kit (JDK)**: Make sure you have JDK installed.
