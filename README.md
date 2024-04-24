@@ -10,10 +10,10 @@ Follow these steps to set up and run the application:
 
 Before you begin, ensure that you have the following installed on your system:
 
-- **Java Development Kit (JDK)**: Make sure you have JDK installed.
+- **Java Development Kit (JDK)**: Make sure you have JDK version 17 installed.
 - **Eclipse IDE**: Download and install Eclipse IDE for Java Developers.
 - **IntelliJ IDEA**: Download and install IntelliJ IDEA. (Optional)
-- **Git**: If you plan to clone the repository, ensure that Git is installed on your system.
+- **Git**: Ensure that Git is installed on your system.
 
 ### Clone the Repository
 1. Open a terminal or command prompt.
@@ -35,7 +35,7 @@ If you're using Eclipse, follow these steps to import the project:
 ### Import Project in IntelliJ IDEA
 1. Open IntelliJ IDEA.
 2. Click on "Open or Import" and select the directory where you cloned the repository.
-3. Select the "pom.xml" file and click "Open" to import the project.
+3. If IntelliJ does not recognize it as a SpringBoot project, then select the "pom.xml" file and click "Open" to import the project.
 
 ### Build and Run the Application (With IDE)
 
