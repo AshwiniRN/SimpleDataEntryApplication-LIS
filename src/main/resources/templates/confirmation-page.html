@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Confirmation</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+<h1>Confirmation</h1>
+<h3>Details entered:</h3>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Title</th>
+        <th>Hometown</th>
+    </tr>
+    <tr>
+        <td th:text="${dataModel.name}"></td>
+        <td th:text="${dataModel.age}"></td>
+        <td th:text="${dataModel.title}"></td>
+        <td th:text="${dataModel.hometown}"></td>
+    </tr>
+</table>
+
+<!-- return to the data entry form -->
+<a href="/">Back to Data Entry Form</a>
+
+<h3>Previously entered details:</h3>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Title</th>
+        <th>Hometown</th>
+    </tr>
+    <tr th:each="dataModel : ${data}">
+        <td th:text="${dataModel.name}"></td>
+        <td th:text="${dataModel.age}"></td>
+        <td th:text="${dataModel.title}"></td>
+        <td th:text="${dataModel.hometown}"></td>
+    </tr>
+</table>
+</body>
+</html>
