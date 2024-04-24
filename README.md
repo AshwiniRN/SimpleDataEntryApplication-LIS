@@ -1,6 +1,6 @@
 # Simple Data Entry Application
 
-This is a simple data entry application developed using Java and Spring Boot.
+This is a simple data entry application developed using Java Spring Boot framework along with HTML and CSS.
 
 ## Setup Instructions
 
@@ -35,7 +35,7 @@ If you're using Eclipse, follow these steps to import the project:
 ### Import Project in IntelliJ IDEA
 1. Open IntelliJ IDEA.
 2. Click on "Open or Import" and select the directory where you cloned the repository.
-3. If IntelliJ does not recognize it as a SpringBoot project, then select the "pom.xml" file and click "Open" to import the project.
+3. If IntelliJ does not recognize it as a Spring Boot project, then select the "pom.xml" file and click "Open" to import the project.
 
 ### Build and Run the Application (With IDE)
 
