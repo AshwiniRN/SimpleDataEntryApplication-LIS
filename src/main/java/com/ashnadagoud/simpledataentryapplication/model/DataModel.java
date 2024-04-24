@@ -2,7 +2,7 @@ package com.ashnadagoud.simpledataentryapplication.model;
 
 public class DataModel {
     private String name;
-    private int age;
+    private String age; //intentionally set age as string to prevent type mismatch exception from UI
     private String title;
     private String hometown;
 
@@ -15,11 +15,11 @@ public class DataModel {
         this.name = name;
     }
 
-    public int getAge() {
+    public String getAge() {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(String age) {
         this.age = age;
     }
 

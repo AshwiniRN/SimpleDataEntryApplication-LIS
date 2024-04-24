@@ -7,17 +7,16 @@
 </head>
 <body>
 <h1>Please enter the details below</h1>
-<form action="/submit" method="post">
+<form action="#" th:action="@{/submit}" th:object="${dataModel}" method="post">
     <label>Name:</label>
-    <input type="text" name="name" required><br>
+    <input type="text" th:field="*{name}" name="name" required><br>
     <label>Age:</label>
-    <input type="number" name="age"><br>
+    <input type="number" th:field="*{age}" name="age"><br>
     <label>Title:</label>
-    <input type="text" name="title" required><br>
+    <input type="text" th:field="*{title}" name="title" required><br>
     <label>Hometown:</label>
-    <input type="text" name="hometown"><br>
-    <button type="submit">Submit</button>
-    <p th:text="${error}"></p>
+    <input type="text" th:field="*{hometown}" name="hometown"><br>
+    <button type="submit" value="Submit">Submit</button>
 </form>
 </body>
 </html>

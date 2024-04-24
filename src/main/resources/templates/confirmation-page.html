@@ -7,7 +7,7 @@
 </head>
 <body>
 <h1>Confirmation</h1>
-<h3>Details entered:</h3>
+<h3>New Record:</h3>
 <table>
     <tr>
         <th>Name</th>
@@ -23,10 +23,9 @@
     </tr>
 </table>
 
-<!-- return to the data entry form -->
-<a href="/">Back to Data Entry Form</a>
+<br>
 
-<h3>Previously entered details:</h3>
+<h3>Previous Records:</h3>
 <table>
     <tr>
         <th>Name</th>
@@ -41,5 +40,9 @@
         <td th:text="${dataModel.hometown}"></td>
     </tr>
 </table>
+<br>
+<br>
+<!-- return to the data entry form -->
+<a href="/">Back to Data Entry Form</a>
 </body>
 </html>
